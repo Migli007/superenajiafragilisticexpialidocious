@@ -71,7 +71,7 @@ export default function PortfolioPage() {
         >
           <h1 className="text-4xl font-bold sm:text-6xl">
             Hi, I’m{" "}
-            <Highlight className="text-emerald-600">
+            <Highlight >
               Miguel Li
             </Highlight>
           </h1>
