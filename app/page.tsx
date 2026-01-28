@@ -2,9 +2,6 @@
 
 import { HeroHighlight, Highlight } from "@/app/components/ui/hero-highlight";
 import { motion } from "framer-motion";
-import { Button } from "@/app/components/ui/button";
-import { Card, CardContent } from "@/app/components/ui/card";
-import { Github, Linkedin, Mail } from "lucide-react";
 import { TextGenerateEffect } from "./components/ui";
 import Image from "next/image";
 import { FocusCards } from "@/components/ui/focus-cards";
