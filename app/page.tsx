@@ -67,9 +67,9 @@ export default function PortfolioPage() {
           className="max-w-3xl"
         >
           <h1 className="text-4xl font-bold sm:text-6xl">
-            Hi, I’m{" "}
+            Happy Monthsary{" "}
             <Highlight >
-              Miguel Li
+              Baobei
             </Highlight>
           </h1>
 
@@ -96,7 +96,7 @@ export default function PortfolioPage() {
       </HeroHighlight>
 
       {/* Memorable SECTION */}
-      <section id="about" className="mx-auto max-w-6xl px-6 py-24">
+      <section id="about" className=" bg-lime-50 mx-auto max-w-7xl px-17 py-24">
         <h2 className="mb-8 text-3xl font-semibold text-emerald-800">
           My Most Memorable Moment
         </h2>
@@ -114,12 +114,12 @@ export default function PortfolioPage() {
           </div>
 
           <p className="text-emerald-700">
-            My most memorable moment of this month is our long field trip. 
-            Although initially it was supppsed to be for your NSTP group project, things shifted more to us and our relationship. 
-            Despite the heat, the walking, and the jeepney rides, nothing felt uncomfortable to me because I had you by my side. 
-            Lets of course not forget the three words you have said to me a couple of times when we were in starbucks. 
-            When I finally heard these words coming out of your mouth, I thought couldnt get any luckier than this but then minutes after that, you proved me wrong. 
-            I cant wait for the next trips we will have together in the future.
+            My most memorable moment this month was our long field trip.
+            Although it was initially supposed to be for your NSTP group project, it slowly shifted into something more about us and our relationship.
+            Despite the heat, all the walking, and the jeepney rides, nothing felt uncomfortable to me because I had you by my side.
+            Let’s not forget the three words you said to me a couple of times when we were in Starbucks.
+            When I finally heard those words come out of your mouth, I thought I couldn’t get any luckier—but minutes later, you proved me wrong.
+            I can’t wait for the next trips we’ll have together in the future.
           </p>
         </div>
         
@@ -191,7 +191,7 @@ export default function PortfolioPage() {
       </section>
 
       {/* PROJECTS SECTION */}
-      <section id="projects" className="bg-lime-50 py-24" >
+      {/* <section id="projects" className="bg-lime-50 py-24" >
         <div className="mx-auto max-w-6xl px-6 py-24">
           <h2 className="mb-12 text-3xl font-semibold text-emerald-800">
             This Month...
@@ -203,10 +203,10 @@ export default function PortfolioPage() {
           
 
         </div>
-      </section>
+      </section> */}
 
       {/* CONTACT SECTION */}
-      <section id="about" className="mx-auto max-w-6xl px-6 py-24">
+      <section id="about" className=" bg-lime-50 mx-auto max-w-7xl px-17 py-24">
         <h2 className="mb-12 text-3xl font-semibold text-emerald-800">
             A Letter to You
           </h2>
@@ -214,22 +214,20 @@ export default function PortfolioPage() {
           <p className="text-emerald-700">
             Dearest Renee, <br /><br />
 
-            I dont understand the physics behind it but in every moment I spend with you, time seems to speed up and slow down at the same time. 
-            Time speeds up everytime we are together but, it slows down as I gaze upon you, looking into your eyes, giving me that pretty smile on your face, 
-            hearing your cute laugh everytime something silly happens.  
-            As I think about this, im reminded of the quote from the film " when Harry met Sally" - when you realize you want to spend the rest of your life with somebody, 
-            you want the rest of your life to start as soon as possible. 
-            The greatest realization I have when Im with you is when were laughing off our mistake as we got off another jeepney stop than we intended. 
-            From that specific moment alone, I knew for certain that life with you would always be amazing and beautiful. 
-            You truly have made me look at the world in a much more colorful and vibrant view. You always make sure I feel so loved and and safe.  
-            Till now, Im still trying to figure how much I deserve to be with such an angel but I know for a fact that I am willing to look for those answers.
+            I don’t understand the physics behind it, but in every moment I spend with you, time seems to speed up and slow down at the same time.
+            Time speeds up whenever we’re together, yet it slows down as I gaze at you—looking into your eyes, 
+            seeing that pretty smile on your face, and hearing your cute laugh whenever something silly happens.
+
+            Thinking about this reminds me of a quote from the film When Harry Met Sally: 
+            “When you realize you want to spend the rest of your life with somebody, 
+            you want the rest of your life to start as soon as possible.”
           </p>
       </section>
 
       {/* CONTACT SECTION */}
       <section id="contact" className="py-24 text-center">
         <h2 className="mb-6 text-3xl font-semibold text-emerald-800">
-          Happy Monthsary Baobei
+          I love you Baobei
         </h2>
        
       </section>
