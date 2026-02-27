@@ -33,7 +33,14 @@ const FebPage = () => {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [active]);
  
-  useOutsideClick(ref, () => setActive(null));
+  useOutsideClick(
+  ref,
+  () => setActive(null),
+  !!active && typeof active === "object"
+);
+
+
+
   return (
     <main className="min-h-screen bg-[#9C9583] text-[#2F3E34]">
       {/* HERO SECTION – SPRING THEME */}
