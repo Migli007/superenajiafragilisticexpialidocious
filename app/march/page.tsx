@@ -117,7 +117,7 @@ const FebPage = () => {
       {/* FOOTER */}
       <section className="py-24 text-center bg-[#a678f0]">
         <h2 className="text-3xl font-semibold text-[#f5f2ff]">
-          Mahal Kita
+          Mahal Kita, Renajia
         </h2>
       </section>
     </main>
