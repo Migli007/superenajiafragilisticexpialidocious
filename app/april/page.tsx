@@ -56,11 +56,15 @@ const AprilPage = () => {
             </div>
 
             <p className="text-[#e8edf2] leading-relaxed">
-             my favorite memory for this month is when I first had dinner with you at your place. 
-             being with you and your family was very fun and lovely. I know Ive said this a couple of times but your mom is really amazing at cooking. 
-             being close with you while we sing together felt so warm and homey like I dont know how to properly explain it 
-             but I will just say you look very beautiful and its always a fun time with you. 
-             I can't wait to see whats next for us in the next chapter of our relationship.
+              My favorite memory this month was when I first had dinner with you at your place. Being with you and your family felt really fun and warm.
+
+              I know I’ve said this before, but your mom is an amazing cook. Everything she made was so good.
+
+              Being close to you while we were singing together felt so comforting and homey—like something I can’t fully explain, but it just felt right.
+
+              And of course, you looked really beautiful. I always have a great time with you.
+
+              I’m excited to see what’s next for us in this next chapter of our relationship.
 
             </p>
           </div>
@@ -93,13 +97,13 @@ const AprilPage = () => {
           <p className="text-[#2c2c2c] leading-relaxed">
            Dearest Baobei, <br /><br />
 
-            it has been 4 months since we have started this journey together. I personally would say that a lot of things happened this month - 
-            I had dinner with your family and did karaoke in your house for the first time, had a lil scare cause something came by later than expected, 
-            finally went to have a movie date with you, and many more. 
+            It’s been 4 months since we started this journey together. I’d say a lot has happened this month alone—having dinner with your family, doing karaoke at your place for the first time, a little scare when something came by later than expected, finally going on a movie date with you, and so much more.
 
-            looking back at those memories, it does make me think about our relationship so far. what we have is and will 
-            continuously be filled with all sorts of experiences, feelings, both good and bad. I can't be certain of whats yet to come but 
-            all I know is that I want you beside me on what is yet to come. Happy Monthsary. I love you.
+            Looking back at all of these memories makes me think about our relationship so far. What we have, and what we’ll continue to have, will always be a mix of different experiences and emotions—good and bad.
+
+            I can’t be certain of everything that’s ahead, but I do know that I want you beside me through whatever comes next.
+
+            Happy monthsary. I love you.
 
           </p>
         </div>
