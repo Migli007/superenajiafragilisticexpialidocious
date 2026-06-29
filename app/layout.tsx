@@ -36,6 +36,7 @@ function Navbar() {
           <a href="/march" className="hover:text-blue-500 transition">March</a>
           <a href="/april" className="hover:text-blue-500 transition">April</a>
           <a href="/may" className="hover:text-blue-500 transition">May</a>
+          <a href="/june" className="hover:text-blue-500 transition">June</a>
         </div>
 
       </nav>
