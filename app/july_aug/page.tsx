@@ -6,61 +6,68 @@ import { SparklesCore } from "@/components/ui/sparkles";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white">
-      {/* Hero */}
-      <section className="relative flex min-h-[42rem] w-full items-center justify-center overflow-hidden bg-black/[0.96] antialiased bg-grid-white/[0.02]">
-        {/* Spotlight */}
-        <Spotlight />
+    <main className="min-h-screen bg-[#07120d] text-white">
+    {/* Hero */}
+<section className="relative flex min-h-[100svh] w-full items-center justify-center overflow-hidden bg-[#07120d] px-4 antialiased">
 
-        {/* Sparkles */}
-        <div className="absolute inset-0 z-0">
-          <SparklesCore
-            background="transparent"
-            minSize={0.4}
-            maxSize={1}
-            particleDensity={180}
-            className="h-full w-full"
-            particleColor="#22c55e"
-        />
-        </div>
+  {/* Soft green moonlight */}
+  <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_50%_0%,rgba(74,222,128,0.14),transparent_45%)]" />
 
-        {/* Hero Content */}
-        <div className="relative z-20 mx-auto w-full max-w-4xl px-6 text-center">
-          <p className="mb-5 text-sm uppercase tracking-[0.4em] text-neutral-500">
-            To my Baobei
-          </p>
+  {/* Spotlight */}
+  <div className="absolute inset-0 z-10">
+    <Spotlight />
+  </div>
 
-          <h1 className="bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-5xl font-bold text-transparent md:text-7xl lg:text-8xl">
-            Happy Monthsary
-          </h1>
+  {/* Fireflies — full hero */}
+  <div className="pointer-events-none absolute inset-0 z-10 h-full w-full">
+    <SparklesCore
+      background="transparent"
+      minSize={1}
+      maxSize={3}
+      particleDensity={70}
+      particleColor="#86efac"
+      speed={0.5}
+      className="h-full w-full"
+    />
+  </div>
 
-          <div className="mx-auto mt-8 max-w-xl text-center text-sm leading-7 text-neutral-400 md:text-base md:leading-8">
-            <p>
-                The future is foggy, with no map to guide us,
-                <br />
-                no certain road, no promised destination.
-            </p>
+  {/* Hero Content */}
+  <div className="relative z-20 mx-auto w-full max-w-4xl px-2 py-24 text-center sm:px-6">
 
-            <p className="mt-4">
-                But I have a compass,
-                <br />
-                and somehow, it always points to you.
-            </p>
+    <p className="mb-4 text-[11px] uppercase tracking-[0.3em] text-neutral-400 sm:mb-5 sm:text-sm sm:tracking-[0.4em]">
+      To my Baobei
+    </p>
 
-            <p className="mt-4 italic text-neutral-500">
-                I don&apos;t know what tomorrow holds.
-                <br />
-                All I have is now.
-                All I know is that I love you.
-            </p>
-            </div>
+    <h1 className="bg-gradient-to-b from-white via-green-50 to-green-300 bg-clip-text text-4xl font-bold leading-tight text-transparent sm:text-6xl md:text-7xl lg:text-8xl">
+      Happy Monthsary
+    </h1>
 
-          <div className="mx-auto mt-12 h-px w-24 bg-white/20" />
-        </div>
+    <div className="mx-auto mt-7 max-w-xl text-sm leading-7 text-neutral-300 sm:mt-8 sm:text-base sm:leading-8">
+      <p>
+        The future is foggy, with no map to guide us,
+        <br />
+        no certain road, no promised destination.
+      </p>
 
-        {/* Fade at the bottom of the hero */}
-        <div className="absolute inset-x-0 bottom-0 z-10 h-32 bg-gradient-to-t from-black to-transparent" />
-      </section>
+      <p className="mt-4">
+        But I have a compass,
+        <br />
+        and somehow, it always points to you.
+      </p>
+
+      <p className="mt-4 italic text-green-200/70">
+        I don&apos;t know what tomorrow holds.
+        <br />
+        All I have is now.
+        <br />
+        All I know is that I love you.
+      </p>
+    </div>
+  </div>
+
+  {/* Fade */}
+  <div className="pointer-events-none absolute inset-x-0 bottom-0 z-20 h-32 bg-gradient-to-t from-[#07120d] to-transparent" />
+</section>
 
       {/* Letter */}
       <section className="relative z-10 mx-auto max-w-4xl px-6 pb-24">
