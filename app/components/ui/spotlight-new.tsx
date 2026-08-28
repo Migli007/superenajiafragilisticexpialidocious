@@ -1,0 +1,1 @@
+import { Spotlight } from "@/components/ui/spotlight-new";
