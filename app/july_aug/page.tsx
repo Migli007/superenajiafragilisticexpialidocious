@@ -34,9 +34,26 @@ export default function Home() {
             Happy Monthsary
           </h1>
 
-          <p className="mx-auto mt-6 max-w-lg text-base font-normal leading-7 text-neutral-400">
-            A little something I wanted to write for you.
-          </p>
+          <div className="mx-auto mt-8 max-w-xl text-center text-sm leading-7 text-neutral-400 md:text-base md:leading-8">
+            <p>
+                The future is foggy, with no map to guide us,
+                <br />
+                no certain road, no promised destination.
+            </p>
+
+            <p className="mt-4">
+                But I have a compass,
+                <br />
+                and somehow, it always points to you.
+            </p>
+
+            <p className="mt-4 italic text-neutral-500">
+                I don&apos;t know what tomorrow holds.
+                <br />
+                All I have is now.
+                All I know is that I love you.
+            </p>
+            </div>
 
           <div className="mx-auto mt-12 h-px w-24 bg-white/20" />
         </div>
